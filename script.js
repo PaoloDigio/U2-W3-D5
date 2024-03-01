@@ -11,6 +11,7 @@ const createProduct = function (arr) {
                 <p class="card-text">${event.description}</p>            
                 <p class="card-text">Prezzo: ${event.price}€</p>
                 <a href="./detail.html?eventId=${event._id}" class="btn btn-dark">Scopri di più</a>
+                <a class="btn btn-primary" href="./back-office.html?eventId=${event._id}" class="btn btn-primary">Modifica</a>
             </div>
         </div>
         `;
